@@ -1,32 +1,28 @@
 <template>
-	<b-card title="Contacto" align="center" tag="article" style="max-width: 20rem;" class="mb-2">
+		<b-form-group clas="wiu">
+			<div class="row mx-1 my-4">
+				<b-form-input placeholder="Ingrese su nombre" class="form-input"></b-form-input>
+			</div>
+			<div class="row mx-1 my-4">
+				<b-form-input placeholder="Ingrese su Correo Electrónico" class="form-input"></b-form-input>
+			</div>
+			<div class="row mx-1 my-4">
+				<b-form-input placeholder="Ingrese su Número Telefónico" class="form-input"></b-form-input>
+			</div>
+			<div class="row mx-1 my-4">
+				<b-form-input placeholder="Asunto" class="form-input"></b-form-input>
+			</div>
+			<div class="row mx-1 my-4">
+				<b-form-textarea placeholder="Mensaje" class="form-input"></b-form-textarea>
+			</div>
 
-		<b-form-group>
-			<b-form-group label="Street:" label-for="nested-street" label-cols-sm="3" label-align-sm="right">
-				<b-form-input id="nested-street"></b-form-input>
-			</b-form-group>
 
-			<b-form-group label="City:" label-for="nested-city" label-cols-sm="3" label-align-sm="right">
-				<b-form-input id="nested-city"></b-form-input>
-			</b-form-group>
+				<div class="row mx-1">
+					<b-button class="my-2 boton-enviar">Enviar</b-button>
+				</div>
 
-			<b-form-group label="State:" label-for="nested-state" label-cols-sm="3" label-align-sm="right">
-				<b-form-input id="nested-state"></b-form-input>
-			</b-form-group>
-
-			<b-form-group label="Country:" label-for="nested-country" label-cols-sm="3" label-align-sm="right">
-				<b-form-input id="nested-country"></b-form-input>
-			</b-form-group>
-
-			<b-form-group label="Ship via:" label-cols-sm="3" label-align-sm="right" class="mb-0"
-				v-slot="{ ariaDescribedby }">
-				<b-form-radio-group class="pt-2" :options="['Air', 'Courier', 'Mail']" :aria-describedby="ariaDescribedby">
-				</b-form-radio-group>
-			</b-form-group>
 		</b-form-group>
 
-		<b-button href="#" variant="primary">Go somewhere</b-button>
-	</b-card>
 </template>
 
 <script>
@@ -35,6 +31,14 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.wiu{
+	text-align: left;
+}
+.boton-enviar{
+	background-color: #477A69;
+}
+.form-input{
+	background-color: #eeeeee;
+}
 </style>

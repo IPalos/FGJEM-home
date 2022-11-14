@@ -1,11 +1,11 @@
 <template>
 	<div class="fullimg">
-		<div class="row">
-			<div class="col-md-5 mx-auto">
+		<div class="row align-items-center justify-content-between">
+			<div class="col-md-4 mx-auto">
 				<InfoContacto></InfoContacto>
 			</div>
-			<div class="col-md-7">
-				<FormularioContacto></FormularioContacto>
+			<div class="col-md-4 mx-auto form-contacto">
+				<card-contacto></card-contacto>
 			</div>
 		</div>
 	</div>
@@ -13,16 +13,20 @@
 
 <script>
 import InfoContacto from '@/molecules/InfoContacto.vue';
-import FormularioContacto from '@/molecules/FormularioContacto.vue';
+import CardContacto from '../molecules/CardContacto.vue';
 
 export default {
-	components: { InfoContacto, FormularioContacto }
+	components: { InfoContacto,CardContacto }
 }
 </script>
 
 <style scoped>
 .fullimg {
-	margin: 0;
+	width: 100%;
+	padding: 24px;
 	background-image: url("../assets/img-llamanos.jpg");
+}
+.form-contacto{
+	align-items: right;
 }
 </style>
