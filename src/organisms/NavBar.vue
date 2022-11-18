@@ -35,62 +35,73 @@
 				<!-- Right aligned nav items -->
 				<b-navbar-nav>
 					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Fiscalía">
-						<b-dropdown-item href="#">EN</b-dropdown-item>
-						<b-dropdown-item href="#">ES</b-dropdown-item>
-						<b-dropdown-item href="#">RU</b-dropdown-item>
-						<b-dropdown-item href="#">FA</b-dropdown-item>
+					<b-nav-item-dropdown text="FGJEM">
+						<b-dropdown-item href="/construccion">Titular</b-dropdown-item>
+						<b-dropdown-item href="#">Misión, visión y objetivo</b-dropdown-item>
+						<b-dropdown-item href="#">Código de ética</b-dropdown-item>
+						<b-dropdown-item href="#">Transparencia</b-dropdown-item>
+						<b-dropdown-item href="#">Aviso de Privacidad</b-dropdown-item>
+						<b-dropdown-item href="#">Organigrama</b-dropdown-item>
+						<b-dropdown-item href="#">Funciones</b-dropdown-item>
+						<b-dropdown-item href="#">Derechos humanos</b-dropdown-item>
+						<b-dropdown-item href="#">Marco jurídico</b-dropdown-item>
+						<b-dropdown-item href="#">Certificación FGJEM</b-dropdown-item>
+						<b-dropdown-item href="#">Historia de la FGJEM</b-dropdown-item>
+
+					</b-nav-item-dropdown>
+
+					<!-- CONTACTO -->
+					<b-nav-item-dropdown text="Contáctanos">
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Formato de contacto</b-dropdown-item>
+						<b-dropdown-item href="#">Buzón Virtual</b-dropdown-item>
+						<b-dropdown-item href="#">Ubicación</b-dropdown-item>
+						<b-dropdown-item href="#">Predenuncia en línea</b-dropdown-item>
+						<b-dropdown-item href="#">Alerta de Genero / Predenuncia</b-dropdown-item>
+						<b-dropdown-item href="#">Teléfonos de atención ciudadana</b-dropdown-item>
+						<b-dropdown-item href="#">Módulos de denuncia express</b-dropdown-item>
+						<b-dropdown-item href="#">Denuncia contra servidores públicos</b-dropdown-item>
+						<b-dropdown-item href="#">Reporte de Robo de Vehiculo</b-dropdown-item>
+						<b-dropdown-item href="#">Odisea y Alerta Amber</b-dropdown-item>
+						<b-dropdown-item href="#">Desaparición de personas</b-dropdown-item>
+
+					</b-nav-item-dropdown>
+
+					<!-- ORIENTACION CIUDADANA -->
+					<b-nav-item-dropdown text="Orientacion Ciudadana">
+						<b-dropdown-item href="#">Teléfonos de atención ciudadana</b-dropdown-item>
+						<b-dropdown-item href="#">Eventos y convocatorias</b-dropdown-item>
+						<b-dropdown-item href="#">Vehiculos / como evitar el robo de tu auto </b-dropdown-item>
+						<b-dropdown-item href="#">Alerta de Genero / evitalo</b-dropdown-item>
+						<b-dropdown-item href="#">Centro de Atención Covid-19</b-dropdown-item>
+						<b-dropdown-item href="#">Plan Seguro</b-dropdown-item>
+						<b-dropdown-item href="#">Servicios Funerarios</b-dropdown-item>
+						<b-dropdown-item href="#">Odisea y Alerta Amber</b-dropdown-item>
+						<b-dropdown-item href="#">Bienes sujetos a extinción de dominio</b-dropdown-item>
+						<b-dropdown-item href="#">Convenio con TOJIL</b-dropdown-item>
+
+					</b-nav-item-dropdown>
+
+					<!-- MEDIOS -->
+					<b-nav-item-dropdown text="Medios ">
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+
 					</b-nav-item-dropdown>
 
 					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Atención Ciudadana">
-					</b-nav-item-dropdown>
+					<b-nav-item-dropdown text="Acciones FGJEM">
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
 
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Acciones Fiscalía">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Buzón Virtual">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Pre Denuncia en Línea">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Prensa">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Transparencia">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Tramites en línea">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Alerta de género">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Alerta de género">
-					</b-nav-item-dropdown>
-
-					<!-- FISCALÍA -->
-					<b-nav-item-dropdown text="Centro de atención Integral">
 					</b-nav-item-dropdown>
 
 
-					<b-nav-item-dropdown right>
-						<!-- Using 'button-content' slot -->
-						<template #button-content>
-							<em>User</em>
-						</template>
-						<b-dropdown-item href="#">Profile</b-dropdown-item>
-						<b-dropdown-item href="#">Sign Out</b-dropdown-item>
-					</b-nav-item-dropdown>
 				</b-navbar-nav>
 			</b-collapse>
 		</b-navbar>

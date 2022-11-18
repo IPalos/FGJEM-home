@@ -1,9 +1,10 @@
 <template>
 	<div class="row d-flex align-items-stretch">
-		
+
 		<!-- Atención Ciudadana -->
 		<div class="col-md-4 mb-4">
-			<b-card title="Atención Ciudadana" img-height="38px" img-width="30px" :img-src="require('@/assets/atencion.png')" img-alt="Image" img-top tag="article" class="h-100">
+			<b-card title="Atención Ciudadana" img-height="38px" img-width="30px" :img-src="require('@/assets/atencion.png')"
+				img-alt="Image" img-top tag="article" class="h-100">
 				<b-card-text>
 					<ul>
 						<li>Teléfonos de atención Ciudadana</li>
@@ -12,15 +13,16 @@
 						<li>Informes de Gestión</li>
 					</ul>
 				</b-card-text>
-				<template #footer>
+				<a href="/atencion-ciudadana" slot="footer">
 					<p>Ver mas ></p>
-      </template>
+				</a>
 			</b-card>
 		</div>
 
 		<!-- PreDenuncia en línea -->
 		<div class="col-md-4 mb-4">
-			<b-card title="Pre-denuncia en línea" img-height="38px" img-width="30px" :img-src="require('@/assets/acciones.png')" img-alt="Image" img-top tag="article" class="h-100">
+			<b-card title="Pre-denuncia en línea" img-height="38px" img-width="30px"
+				:img-src="require('@/assets/acciones.png')" img-alt="Image" img-top tag="article" class="h-100">
 				<b-card-text>
 					Lorem Ipsum dolor sit amet, consectetuer adipsiscing elit.
 				</b-card-text>
@@ -30,7 +32,8 @@
 
 		<!-- Tramites en línea -->
 		<div class="col-md-4 mb-4">
-			<b-card title="Tramites en línea" img-height="38px" img-width="30px" :img-src="require('@/assets/tramites.png')" img-alt="Image" img-top tag="article" class="h-100">
+			<b-card title="Tramites en línea" img-height="38px" img-width="30px" :img-src="require('@/assets/tramites.png')"
+				img-alt="Image" img-top tag="article" class="h-100">
 				<b-card-text>
 					<ul>
 						<li>Ventanilla Electrónica Única</li>
@@ -46,7 +49,8 @@
 
 		<!-- Alerta de género -->
 		<div class="col-md-4 mb-4">
-			<b-card title="Alerta de Género" img-height="38px" img-width="30px" :img-src="require('@/assets/genero.png')" img-alt="Image" img-top tag="article" class="h-100">
+			<b-card title="Alerta de Género" img-height="38px" img-width="30px" :img-src="require('@/assets/genero.png')"
+				img-alt="Image" img-top tag="article" class="h-100">
 				<b-card-text>
 					<ul>
 						<li>Alerta de género</li>
@@ -61,7 +65,8 @@
 
 		<!-- Correo Institucional -->
 		<div class="col-md-4 mb-4">
-			<b-card title="Correo institucional FGJEM" img-height="38px" img-width="30px" :img-src="require('@/assets/correo.png')" img-alt="Image" img-top tag="article" class="h-100">
+			<b-card title="Correo institucional FGJEM" img-height="38px" img-width="30px"
+				:img-src="require('@/assets/correo.png')" img-alt="Image" img-top tag="article" class="h-100">
 				<b-card-text>
 					Lorem Ipsum dolor sit amet, consectetuer adipsiscing elit.
 				</b-card-text>
@@ -71,7 +76,8 @@
 
 		<!-- Acciones FGJEM -->
 		<div class="col-md-4 mb-4">
-			<b-card title="Acciones FGJEM" img-height="38px" img-width="30px" :img-src="require('@/assets/acciones.png')" img-alt="Image" img-top tag="article" class="h-100">
+			<b-card title="Acciones FGJEM" img-height="38px" img-width="30px" :img-src="require('@/assets/acciones.png')"
+				img-alt="Image" img-top tag="article" class="h-100">
 				<b-card-text>
 					<ul>
 						<li>Bienes vinculados al Procedimiento Penal y la Extinción de Dominio</li>
@@ -92,12 +98,12 @@ export default {
 </script>
 
 <style scoped>
-.card-img-top{
+.card-img-top {
 	width: 38px;
 	padding: 8px 0 0 8px;
 }
-#p{
+
+#p {
 	font-size: 9pt;
 }
-
 </style>

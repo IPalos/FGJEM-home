@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 import HomePage from "./pages/HomePage.vue";
+import AtencionCiudadana from "./pages/AtencionCiudadana.vue";
 import EnConstruccion from "./pages/EnConstruccion.vue";
 
 
@@ -15,7 +16,11 @@ let router = new VueRouter({
       name: "home",
       component: HomePage,
     },
-
+    {
+      path: "/atencion-ciudadana",
+      name: "atencionCiudadana",
+      component: AtencionCiudadana,
+    },
     {
       path: "/construccion/",
       name: "enConstruccion",

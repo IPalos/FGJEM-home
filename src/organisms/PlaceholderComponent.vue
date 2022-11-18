@@ -19,9 +19,10 @@ export default {
 
 <style>
 .placeholder-component{
-	background-color: beige;
+	background-color: gray;
 	text-align: center;
 	vertical-align: middle;
+	margin: 4px;
 }
 
 </style>
