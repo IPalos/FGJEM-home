@@ -25,8 +25,9 @@ import ComunicacionSocial from '../organisms/ComunicacionSocial.vue';
 import GridNoticias from '../organisms/GridNoticias.vue';
 import GridAccionesFGJEM from '../organisms/GridAccionesFGJEM.vue';
 import SocialBanner from '../molecules/SocialBanner.vue';
+// import ModalFGJEM from '../organisms/ModalFGJEM.vue';
 export default {
-  components: { NavBar, SeccionContacto, GridFooter, MainCarrousel, SeccionServicios, ComunicacionSocial, GridNoticias, GridAccionesFGJEM, SocialBanner, },
+  components: { NavBar, SeccionContacto, GridFooter, MainCarrousel, SeccionServicios, ComunicacionSocial, GridNoticias, GridAccionesFGJEM, SocialBanner,  },
 
 }
 </script>
