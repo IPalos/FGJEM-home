@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div class="row justify-content-center">
 		<nav-bar></nav-bar>
-		<div class="mx-5 my-5">
+		<div class=" col-md-8 my-5">
 			<div class="mx-5 center">
 				<tab-header title="FISCALÍA GENERAL DE JUSTICIA DEL ESTADO DE MÉXICO AVISO DE PRIVACIDAD INTEGRAL" />
 			</div>
@@ -697,6 +697,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.body-aviso{
+	width:70%;
+	text-align: center;
+	font-size: 15pt;
+}
 
 </style>

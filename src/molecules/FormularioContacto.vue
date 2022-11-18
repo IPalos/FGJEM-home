@@ -19,7 +19,7 @@
 
 
 				<div class="row mx-1">
-					<b-button class="my-2 boton-enviar">Enviar</b-button>
+					<b-button class="my-2 boton-enviar" @click="wiu">Enviar</b-button>
 				</div>
 
 		</b-form-group>
@@ -28,7 +28,11 @@
 
 <script>
 export default {
-
+methods:{
+	wiu(){
+		alert("Se envió el correo exitosamente");
+	}
+}
 }
 </script>
 
