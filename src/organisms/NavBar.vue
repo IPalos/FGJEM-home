@@ -2,7 +2,7 @@
 	<div>
 		<!-- NavBar Principal -->
 		<b-navbar toggleable="lg" variant="Light">
-			<b-navbar-brand href="#">
+			<b-navbar-brand href="/">
 				<img src="../assets/logo-fgj.png" width="90" height="90" alt="" />
 				Fiscalía General de Justicia del Estado de México
 			</b-navbar-brand>

@@ -1,6 +1,7 @@
 <template>
 		<b-form-group clas="wiu">
 			<div class="row mx-1 my-4">
+			
 				<b-form-input placeholder="Ingrese su nombre" class="form-input"></b-form-input>
 			</div>
 			<div class="row mx-1 my-4">

@@ -1,11 +1,16 @@
 <template>
-	<div class="row footer">
+	<div class="row footer align-items-center">
 		<!-- COL 1 -->
 		<div class="col-md-3">
-			<img src="../assets/logo-fgj.png" width="90" height="90" alt="" />
+			<div class="center mb-4">
+				<img src="../assets/logo-fgj.png" width="90" height="90" alt="" />
+			</div>
+			<p><b>Privacidad</b></p>
 			<ul>
 				<li>
-					<small>Aviso de Privacidad</small>
+					<a href="/aviso-privacidad">
+						<small>Aviso de Privacidad</small>
+					</a>
 				</li>
 				<li>
 					<small>Términos y condciones</small>
@@ -17,7 +22,7 @@
 		</div>
 		<!-- COl 2 -->
 		<div class="col-md-3">
-			<p>Enlaces de interés</p>
+			<p><b>Enlaces de interés</b></p>
 			<ul>
 				<li>SESNSP</li>
 				<li>SSEM</li>
@@ -30,54 +35,39 @@
 		</div>
 		<!-- COL 3 -->
 		<div class="col-md-3">
-			<p>Contacto</p>
+			<p><b>Contacto</b></p>
+			<servicios-lista-item text="(722) 226 16 00">
+				<img src="@/assets/phone.png" slot="img">
+			</servicios-lista-item>
+			<servicios-lista-item text="gempgl@edomex.gob.mx">
+				<img src="@/assets/mail.png" slot="img">
+			</servicios-lista-item>
+			<servicios-lista-item text="José María Morelos oriente 1300. Colonia San Sebastían">
+				<img src="@/assets/pin.png" slot="img">
+			</servicios-lista-item>
+
 			<div class="row">
+				<div class="col-md-3">Síguenos</div>
 				<div class="col-md-2">
-					<img src="../assets/atencion.png" />
-				</div>
-				<div class="col-md-10">
-					(722) 226 16 00
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-2">
-					<img src="../assets/correo.png" />
-				</div>
-				<div class="col-md-10">
-					gempgl@edomex.gob.mx
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-2">
-					<img src="../assets/acciones.png" />
-				</div>
-				<div class="col-md-10">
-					José María Morelos oriente 1300. Colonia San Sebastían
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">Síguenos</div>
-				<div class="col-md-2">
-					<img src="../assets/icon-twitter.png" />
+					<b-icon icon="twitter" aria-hidden="true"></b-icon>
 				</div>
 				<div class="col-md-2">
-					<img src="../assets/icon-facebook.png" />
+					<b-icon icon="instagram" aria-hidden="true"></b-icon>
 				</div>
 				<div class="col-md-2">
-					<img src="../assets/icon-instagram.png" />
+					<b-icon icon="facebook" aria-hidden="true"></b-icon>
 				</div>
 			</div>
 		</div>
-
 		<!-- COL 4 -->
 		<div class="col-md-3">
-			<p>Teléfonos de atención ciudadana y Denuncia Exprés</p>
+			<p><b>Teléfonos de atención ciudadana y Denuncia Exprés</b></p>
 			<ul>
 				<li>800 702 87 70</li>
 				<li>800 398 07 74 06 (Excepto Toluca)</li>
 				<li>722 2 26 17 14 Coordinación General de investigación y Análisis (FGJEM)</li>
 			</ul>
-			<p>Teléfonos de emergencia</p>
+			<p><b>Teléfonos de emergencia</b></p>
 			<ul>
 				<li>911 Teléfono de Atención a Emergencias.</li>
 				<li>089 Denuncia Anónima via Telefónica</li>
@@ -88,15 +78,23 @@
 </template>
 
 <script>
+import ServiciosListaItem from '../atoms/ServiciosListaItem.vue'
 export default {
+	components: { ServiciosListaItem },
 
 }
 </script>
 
-<style>
+<style
+ServiciosListaItem scoped>
 .footer {
-	padding:16px;
+	padding: 16px;
 	color: white;
 	background-color: #55615D;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
 </style>

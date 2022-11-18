@@ -2,10 +2,7 @@
   <div>
     <NavBar></NavBar>
     <main-carrousel></main-carrousel>
-    <placeholder-component height="height:100px" description="Redes sociales">
-      <button>Twitter</button>
-      <button>Facebook</button>
-    </placeholder-component>
+    <social-banner/>
     <seccion-servicios></seccion-servicios>
     <comunicacion-social></comunicacion-social>
     <div class="px-4">
@@ -27,9 +24,9 @@ import SeccionServicios from '../organisms/SeccionServicios.vue';
 import ComunicacionSocial from '../organisms/ComunicacionSocial.vue';
 import GridNoticias from '../organisms/GridNoticias.vue';
 import GridAccionesFGJEM from '../organisms/GridAccionesFGJEM.vue';
-import PlaceholderComponent from '../organisms/PlaceholderComponent.vue';
+import SocialBanner from '../molecules/SocialBanner.vue';
 export default {
-  components: { NavBar, SeccionContacto, GridFooter, MainCarrousel, SeccionServicios, ComunicacionSocial, GridNoticias, GridAccionesFGJEM, PlaceholderComponent, },
+  components: { NavBar, SeccionContacto, GridFooter, MainCarrousel, SeccionServicios, ComunicacionSocial, GridNoticias, GridAccionesFGJEM, SocialBanner, },
 
 }
 </script>
