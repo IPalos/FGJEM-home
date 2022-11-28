@@ -84,21 +84,21 @@
 
 					<!-- MEDIOS -->
 					<b-nav-item-dropdown text="Medios ">
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
+						<b-dropdown-item href="#">Cumplimiento: Órden de Aprehension</b-dropdown-item>
+						<b-dropdown-item href="#">Comunicado 1381-2022</b-dropdown-item>
+						<b-dropdown-item href="#">Comunicado 1380-2022</b-dropdown-item>
+						<b-dropdown-item href="#">Comunicado 1379-2022</b-dropdown-item>
+						<b-dropdown-item href="#">Comunicado 1378-2022</b-dropdown-item>
+						<b-dropdown-item href="#">Comunicados Noviembre 2022</b-dropdown-item>
+						<b-dropdown-item href="#">Comunicados Octubre 2022</b-dropdown-item>
 
 					</b-nav-item-dropdown>
 
 					<!-- FISCALÍA -->
 					<b-nav-item-dropdown text="Acciones FGJEM">
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-						<b-dropdown-item href="#">Contáctanos</b-dropdown-item>
-
+						<b-dropdown-item href="#">Alerta Amber</b-dropdown-item>
+						<b-dropdown-item href="#">Recompensas</b-dropdown-item>
+						<b-dropdown-item href="#">Si los reconoces denuncialos</b-dropdown-item>
 					</b-nav-item-dropdown>
 
 
