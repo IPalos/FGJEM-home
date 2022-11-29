@@ -1,7 +1,7 @@
 <template>
 	<div class="row d-flex align-items-stretch">
 		<div class="container my-4">
-			<h4>NOTICIAS</h4>
+			<h4 id="noticias">NOTICIAS</h4>
 		</div>
 		<!-- Noticia 1 -->
 		<div class="col-md-4 mb-4">
