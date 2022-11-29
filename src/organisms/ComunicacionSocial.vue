@@ -1,6 +1,6 @@
 <template>
 	<div class="comunicacion-social pt-4">
-		<h4 class="px-4">Comunicación Social</h4>
+		<h4 id="comunicacion-social" class="px-4">Comunicación Social</h4>
 		<div class="row my-5 py-5">
 			<div class="col-md-6">
 				<img src="@/assets/slider-2.png" width="100%" height="200px"/>
