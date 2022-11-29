@@ -24,7 +24,13 @@
 			<b-card title="Pre-denuncia en línea" img-height="38px" img-width="30px"
 				:img-src="require('@/assets/acciones.png')" img-alt="Image" img-top tag="article" class="h-100">
 				<b-card-text>
-					Lorem Ipsum dolor sit amet, consectetuer adipsiscing elit.
+					<ul>
+						<li>Género</li>
+						<li>Robo de vehiculos</li>
+						<li>Reporte de robo</li>
+						<li>Extorsiones</li>
+						<li>Lesiones</li>
+					</ul>
 				</b-card-text>
 				<p slot="footer">Ver mas ></p>
 			</b-card>
